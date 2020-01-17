@@ -1,0 +1,2237 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed|Mystery+Quest&display=swap");
+* {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 360px) {
+  #leftArrow {
+    top: 65% !important;
+    margin-bottom: 5% !important;
+  }
+
+  #rightPanel ul li {
+    font-size: 11px !important;
+    margin: 10px 0 !important;
+  }
+
+  #mobileMenuBtn {
+    display: flex !important;
+  }
+
+  #finances {
+    margin-top: 65% !important;
+  }
+
+  #financesChart {
+    transform: scale(0.7) !important;
+  }
+
+  #financesButtons {
+    padding: 0 !important;
+    width: 100% !important;
+    background: #0d0d0d;
+  }
+
+  #employeeBoxTitle {
+    margin-top: 20% !important;
+  }
+
+  #employeePopup {
+    padding: 5px !important;
+    top: 1% !important;
+    left: 8% !important;
+    max-width: 95% !important;
+    transform: translate(0%, 0%) !important;
+  }
+
+  #employeePopup .employeeImg {
+    width: 35px !important;
+    height: 35px !important;
+  }
+
+  .skill {
+    transform: scale(0.7) !important;
+    margin: 5px 0 !important;
+  }
+
+  .employeeDataWrap {
+    transform: scale(0.7) !important;
+    font-size: 17px !important;
+  }
+
+  .employeePersonal span {
+    font-size: 16px !important;
+  }
+
+  .employeeRow {
+    margin: 0 !important;
+    width: 95% !important;
+    flex-direction: column !important;
+  }
+
+  #employeeSkills {
+    width: 95% !important;
+  }
+
+  #wrapper {
+    height: auto;
+  }
+
+  .tutorialBox {
+    top: 0 !important;
+    left: 0% !important;
+    width: 100% !important;
+    padding: 0 !important;
+    height: 20% !important;
+    border: none !important;
+    border-bottom: 2px #0d0d0d solid !important;
+    font-size: 14px !important;
+  }
+  .tutorialBox div:first-child {
+    padding-top: 10px;
+  }
+
+  .tutorialFinished {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px !important;
+    width: auto !important;
+    height: auto !important;
+  }
+  .tutorialFinished #tutorialBtn {
+    padding: 10px 0;
+    width: 95% !important;
+  }
+
+  #office {
+    margin-top: 45% !important;
+  }
+
+  #finishCreatingCharacter {
+    width: 30% !important;
+  }
+
+  #playerData {
+    max-width: 100% !important;
+  }
+
+  #employeeBox {
+    width: 100%;
+    flex-direction: column;
+    height: auto !important;
+    background: #0d0d0d;
+  }
+
+  .employeeCard:first-of-type {
+    margin-top: 250%;
+  }
+  .employeeCard:last-of-type {
+    margin-bottom: 30%;
+  }
+
+  #mainBox {
+    width: 100% !important;
+  }
+
+  #availableBusinessList {
+    width: 60% !important;
+  }
+
+  #business {
+    margin-top: 50% !important;
+  }
+
+  #doBusinessPopup {
+    top: 70% !important;
+  }
+
+  #businessJobTitle {
+    margin-top: 10% !important;
+    width: 75% !important;
+    font-size: 15px !important;
+  }
+
+  #saveBtn {
+    top: 11% !important;
+    left: -7% !important;
+    transform: scale(0.5);
+  }
+
+  #relationsBox {
+    background: #0d0d0d;
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .relationsWrap {
+    width: 100% !important;
+  }
+
+  .relationBarWrap {
+    transform: scale(0.5);
+  }
+
+  #realtionsTitle {
+    margin-top: 300% !important;
+  }
+
+  #relations {
+    margin-top: -75% !important;
+    height: auto !important;
+  }
+
+  #timer {
+    width: auto !important;
+  }
+
+  #newsBox {
+    width: 75% !important;
+    top: 80% !important;
+    transform: translate(-61.5%, -70%) !important;
+  }
+
+  .finacesBoxInfo {
+    height: auto !important;
+    top: 60% !important;
+  }
+}
+@media only screen and (min-width: 411px) {
+  #leftArrow {
+    top: 65% !important;
+    margin-bottom: 5% !important;
+  }
+
+  #rightPanel ul li {
+    margin: 15px 0 !important;
+    padding: 7px 10px !important;
+    font-size: 9px !important;
+    letter-spacing: 4px !important;
+  }
+
+  #employees {
+    margin-top: 25% !important;
+  }
+
+  #employeePopup {
+    left: 12.5% !important;
+    transform: translate(-50%, 0%);
+  }
+}
+@media only screen and (max-width: 320px) {
+  #leftArrow {
+    top: 65% !important;
+  }
+
+  #mobileMenuBtn {
+    display: flex !important;
+  }
+
+  #leftArrow {
+    top: 65% !important;
+  }
+
+  #employeeBox {
+    margin-top: 300% !important;
+    height: auto !important;
+    width: 100% !important;
+    background: #0d0d0d;
+    flex-direction: column;
+  }
+
+  .tutorialBox {
+    top: 0 !important;
+    left: 0% !important;
+    width: 100% !important;
+    padding: 0 !important;
+    height: 20% !important;
+    border: none !important;
+    border-bottom: 2px #0d0d0d solid !important;
+    font-size: 14px !important;
+  }
+  .tutorialBox div:first-child {
+    padding-top: 10px;
+  }
+
+  .tutorialFinished {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px !important;
+    width: auto !important;
+    height: auto !important;
+  }
+  .tutorialFinished #tutorialBtn {
+    padding: 10px 0;
+    width: 95% !important;
+  }
+
+  #rightPanel ul li {
+    font-size: 13px !important;
+    margin: 11px 0 !important;
+  }
+
+  #office {
+    margin-top: 50% !important;
+  }
+
+  #businessEmployeesCards {
+    margin: 0 !important;
+  }
+
+  #finishCreatingCharacter {
+    width: 30% !important;
+  }
+
+  #rightPanel ul li img {
+    width: 20px !important;
+  }
+
+  #playerData {
+    flex-direction: column !important;
+  }
+  #playerData input {
+    margin: 5px 0 !important;
+  }
+
+  #financesChart {
+    margin-top: -20% !important;
+    width: 90% !important;
+    transform: scale(0.6) !important;
+  }
+
+  .generalBtn {
+    padding: 7px 10px !important;
+  }
+
+  #finances {
+    margin-top: 50% !important;
+    padding-top: 10% !important;
+  }
+
+  #financesButtons {
+    background: #0d0d0d;
+    position: absolute;
+    top: 125%;
+    padding: 0 !important;
+  }
+
+  #employeePopup {
+    padding: 0px 30px !important;
+    width: 75% !important;
+    height: auto !important;
+    top: 60% !important;
+  }
+
+  .employeeRow {
+    flex-direction: column;
+  }
+
+  .employeeDataWrap {
+    font-size: 12px !important;
+  }
+
+  #employeePopup .employeeImg {
+    width: 30px !important;
+    height: 30px !important;
+  }
+
+  #availableBusinessList {
+    background: #0d0d0d;
+  }
+
+  .businessListElem, .noAvaiable {
+    font-size: 12px !important;
+    margin: 10px 0 !important;
+  }
+  .businessListElem img, .noAvaiable img {
+    width: 20px !important;
+  }
+
+  #doBusinessPopup {
+    top: 61% !important;
+  }
+  #doBusinessPopup #businessJobTitle {
+    width: 80% !important;
+    font-size: 17px !important;
+  }
+
+  #relations {
+    margin-top: 150% !important;
+  }
+
+  #employees {
+    margin-top: 25% !important;
+  }
+
+  #business {
+    margin-top: 35% !important;
+  }
+
+  .businessInfo, #chooseEmployeeToJob {
+    font-size: 15px !important;
+  }
+
+  .chosen {
+    transform: scale(0.7) !important;
+  }
+
+  .finacesBoxInfo {
+    top: 65% !important;
+    height: auto !important;
+  }
+
+  #newsBox {
+    width: 70% !important;
+    top: 65% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+  }
+
+  #listOfEmployees {
+    background: #0d0d0d;
+    flex-direction: column;
+  }
+
+  .employeePersonal {
+    font-size: 15px !important;
+    margin: 10px 0 !important;
+    padding: 3px 10px !important;
+  }
+
+  .employeeRow, .skill {
+    margin: 5px 0 !important;
+  }
+
+  .skillInfo {
+    font-size: 15px !important;
+  }
+
+  #saveBtn {
+    transform: scale(0.5) !important;
+    top: 3% !important;
+    left: -7% !important;
+  }
+
+  .employeeCard {
+    padding: 5px !important;
+  }
+
+  .relationsWrap, .relationsBar, .relationBarWrap {
+    transform: scale(0.7) !important;
+  }
+
+  #timer {
+    width: auto !important;
+  }
+
+  #relationsBox {
+    background: #0d0d0d;
+  }
+}
+@media only screen and (min-width: 375px) {
+  body, html {
+    min-height: 100% !important;
+    height: auto !important;
+  }
+
+  #leftArrow {
+    top: 65% !important;
+  }
+
+  #finances {
+    margin-top: 35% !important;
+  }
+
+  #rightPanel ul li {
+    font-size: 12px !important;
+    margin: 10px 0 !important;
+  }
+
+  #listOfEmployees {
+    flex-direction: column !important;
+  }
+
+  #rightArrow {
+    transform: translateX(50%);
+    right: 50% !important;
+  }
+
+  #leftArrow {
+    transform: translateX(-50%);
+    left: 50% !important;
+  }
+
+  .employeeCard:first-of-type {
+    margin-top: 50% !important;
+  }
+
+  #employeeBoxTitle {
+    margin-top: 55% !important;
+  }
+
+  #hireBtnWrapp {
+    margin-top: -1% !important;
+  }
+
+  #relations {
+    margin-top: -255% !important;
+  }
+
+  #doBusinessPopup {
+    top: 60% !important;
+  }
+}
+@media only screen and (min-width: 414px) {
+  #leftArrow {
+    top: 65% !important;
+  }
+
+  #rightPanel ul li {
+    font-size: 9px !important;
+  }
+
+  #rightPanel {
+    height: 100% !important;
+  }
+
+  .employeeCard:first-of-type {
+    margin-top: 20% !important;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .tutorialBox {
+    left: 60% !important;
+    width: auto !important;
+    height: auto !important;
+    border-left: 1px solid #0d0d0d !important;
+  }
+
+  #actualPanel {
+    padding: 30px 20px !important;
+  }
+
+  #office {
+    margin-top: 10% !important;
+    margin-left: 0 !important;
+    width: 100% !important;
+  }
+
+  #employees {
+    margin-top: 10% !important;
+    margin-left: 0 !important;
+    width: 100% !important;
+  }
+
+  #finances {
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-top: 0 !important;
+  }
+
+  #business {
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-top: 0 !important;
+  }
+
+  #relations {
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-top: 10% !important;
+  }
+
+  .relationsWrap {
+    width: 50% !important;
+  }
+
+  #rightArrow {
+    top: 25% !important;
+  }
+
+  #leftArrow {
+    top: 30% !important;
+  }
+
+  #saveBtn {
+    top: 9.5% !important;
+    left: -2% !important;
+  }
+
+  #realtionsTitle {
+    margin-top: 0 !important;
+  }
+
+  #hireBtnWrapp {
+    padding-bottom: 10% !important;
+  }
+
+  #employeePopup, #doBusinessPopup, #newsBox {
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+  }
+
+  #employeeBoxTitle {
+    margin-top: 0 !important;
+  }
+
+  #businessJobTitle {
+    font-size: 25px !important;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  #mobileMenuBtn {
+    display: none !important;
+  }
+
+  #office, #finances, #business, #relations {
+    margin-left: 20% !important;
+    width: 80% !important;
+  }
+
+  #employees {
+    margin-left: 20% !important;
+    width: 80% !important;
+    margin-top: 0 !important;
+  }
+
+  #placeBox {
+    min-height: auto !important;
+  }
+
+  #saveBtn {
+    top: -7.5% !important;
+  }
+
+  #employeeBoxTitle {
+    margin-top: 10% !important;
+  }
+
+  #rightArrow, #leftArrow {
+    top: 50% !important;
+    transform: translate(-50%, -50%) !important;
+  }
+
+  #rightArrow {
+    left: 92% !important;
+  }
+
+  #leftArrow {
+    left: 25% !important;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  #employeeBox, #listOfEmployees {
+    flex-direction: row !important;
+  }
+
+  .employeeCard:first-of-type {
+    margin-top: 0% !important;
+  }
+
+  .employeeCard:last-of-type {
+    margin-bottom: 0% !important;
+  }
+
+  #saveBtn {
+    left: 0% !important;
+    top: 5% !important;
+  }
+
+  .tutorialFinished {
+    right: 0% !important;
+    top: 0% !important;
+    left: 0% !important;
+    transform: translate(0%, 0%) !important;
+  }
+
+  #newsBox {
+    top: 60% !important;
+    width: auto !important;
+  }
+
+  #newsTitle {
+    margin-bottom: 0% !important;
+  }
+
+  #rightPanel ul li {
+    padding: 15px 10px !important;
+    font-size: 14px !important;
+    margin: 20px 0 !important;
+  }
+
+  .employeeCard {
+    margin: 0 30px !important;
+  }
+}
+.tutorialFinished {
+  top: 50% !important;
+  right: 50% !important;
+  transform: translate(50%, -50%) !important;
+  z-index: 999999 !important;
+}
+
+#hireBtnWrapp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: #0d0d0d;
+  padding-bottom: 2%;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background: #262525;
+  background: -moz-radial-gradient(center, ellipse cover, #262525 0%, black 64%, black 99%, black 100%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #262525), color-stop(64%, black), color-stop(99%, black), color-stop(100%, black));
+  background: -webkit-radial-gradient(center, ellipse cover, #262525 0%, black 64%, black 99%, black 100%);
+  background: -o-radial-gradient(center, ellipse cover, #262525 0%, black 64%, black 99%, black 100%);
+  background: -ms-radial-gradient(center, ellipse cover, #262525 0%, black 64%, black 99%, black 100%);
+  background: radial-gradient(ellipse at center, #262525 0%, black 64%, black 99%, black 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#262525", endColorstr="#000000", GradientType=1 );
+}
+
+#container #logo {
+  font-family: "Mystery Quest", cursive;
+  color: #ffa31a;
+  font-size: 120px;
+}
+
+#container #startGame, #container #gameInfo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #1d1d1d;
+  color: #fff;
+  letter-spacing: 3px;
+  width: 250px;
+  padding: 20px 50px;
+  cursor: pointer;
+  margin: 55px 0;
+  transition: all 0.2s;
+  -webkit-box-shadow: 0px 0px 27px 1px black;
+  -moz-box-shadow: 0px 0px 27px 1px black;
+  box-shadow: 0px 0px 27px 1px black;
+}
+
+#container #startGame img, #container #gameInfo img {
+  display: block;
+  width: 35px;
+}
+
+#container #startGame:hover, #container #gameInfo:hover {
+  color: #ff3333;
+}
+
+#wrapper {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  width: 100%;
+  background: #0d0d0d;
+}
+
+body, html {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+#rightPanel {
+  position: fixed;
+  z-index: 9999;
+  background: #0d0d0d;
+  color: #fff;
+  width: auto;
+  min-width: 20%;
+  max-height: 100%;
+  -webkit-box-shadow: 0px 7px 13px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 7px 13px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 7px 13px 1px rgba(0, 0, 0, 0.75);
+  transition: all 0.5s;
+}
+
+#mobileMenuBtn {
+  position: absolute;
+  z-index: 99998;
+  top: 0.5%;
+  left: 0.5%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  height: 5%;
+  display: none;
+}
+
+.line {
+  border-radius: 15px;
+  background: #ffa31a;
+  width: 40px;
+  height: 3px;
+  margin: 3px 0;
+  transition: all 0.2s;
+  border: 1px solid #0d0d0d;
+}
+
+#rightPanel #actualPanel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ff3333;
+  padding: 15px 20px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+#rightPanel ul {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#rightPanel ul li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background: #1d1d1d;
+  margin: 20px 0;
+  padding: 15px 20px;
+  width: 80%;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  transition: all 0.2s;
+  cursor: pointer;
+  -webkit-box-shadow: -10px 10px 10px -2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -10px 10px 10px -2px rgba(0, 0, 0, 0.75);
+  box-shadow: -10px 10px 10px -2px rgba(0, 0, 0, 0.75);
+}
+
+#rightPanel ul li img {
+  display: block;
+  margin-right: 20px;
+  width: 35px;
+}
+
+#rightPanel ul li:hover {
+  width: 80%;
+}
+
+#rightPanel ul li:first-child {
+  opacity: 0.5;
+  color: #ccc;
+}
+
+#sea {
+  background-image: url("../img/sea.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+#sea svg {
+  margin-left: 11%;
+  margin-top: -3%;
+  width: 87%;
+  height: 100%;
+  transform: scale(0.8);
+  stroke-linejoin: round;
+  stroke: #000;
+  fill: none;
+}
+
+#sea svg path {
+  cursor: pointer;
+}
+
+#placeBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #1d1d1d;
+  position: absolute;
+  left: 20%;
+  color: #fff;
+  min-width: 13%;
+  min-height: 42%;
+  width: auto;
+  height: auto;
+  z-index: 99999;
+  padding: 20px;
+  border-radius: 3px;
+}
+
+#placeBox #triangle {
+  position: absolute;
+  top: -5%;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 30px 30px 30px;
+  border-color: transparent transparent #1d1d1d transparent;
+}
+
+#placeBox #placeName {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #ff3333;
+  font-size: 22px;
+  border-bottom: 2px solid #ff3333;
+  margin-bottom: 10px;
+}
+
+#placeBox #closePlaceBox {
+  cursor: pointer;
+  position: relative;
+  left: 48%;
+  top: 0%;
+}
+
+#placeBox #closePlaceBox img {
+  width: 25px;
+}
+
+#placeBox .placeInformation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  padding: 5px;
+  border-bottom: 1px solid #fff;
+  margin: 10px;
+}
+
+#placeBox .placeInformation div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: right;
+}
+
+#placeBox .placeInformation div span {
+  color: #ff3333;
+}
+
+#placeBox .placeInformation img {
+  width: 25px;
+  margin: 10px;
+}
+
+#placeBox #loadingBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+#placeBox #loadingBox #loading {
+  position: relative;
+  background: transparent;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 10px solid #ff3333;
+  transition: all 0.2s;
+  animation: loadingRotate 1s;
+  animation-iteration-count: infinite;
+}
+
+#placeBox #loadingBox #loading::after {
+  position: absolute;
+  top: 10%;
+  left: 32%;
+  transform: translate(-10%, -32%);
+  content: "";
+  background: #1d1d1d;
+  width: 10px;
+  height: 50px;
+}
+
+#placeBox .mapButton {
+  background: #0d0d0d;
+  text-align: center;
+  color: #ff3333;
+  padding: 5px 10px;
+  margin-top: 15px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+#choosenCountryForBusiness {
+  text-align: center;
+  margin: 3% 0;
+  color: #fff;
+  font-size: 22px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+#choosenCountryForBusiness span {
+  color: #ff3333;
+  font-weight: bold;
+}
+
+#placeBox .mapButton:hover {
+  background: #ff3333;
+  color: #0d0d0d;
+}
+
+@keyframes loadingRotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#checkNews {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+}
+
+.tutorialBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  min-width: 20%;
+  padding: 20px 0;
+  width: auto;
+  text-align: center;
+  background: #ffa31a;
+  color: #1d1d1d;
+  border-left: 1px solid #1d1d1d;
+  border-bottom: 1px solid #1d1d1d;
+  transition: all 0.2s;
+}
+
+.tutorialBox div {
+  margin: 5% 0 0 5%;
+  width: 95%;
+}
+
+#popup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+  z-index: 999999;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #1d1d1d;
+  color: #fff;
+  padding: 20px;
+  width: auto;
+  height: auto;
+}
+
+#popup h2 {
+  text-align: center;
+  font-weight: normal;
+  font-size: 25px;
+}
+
+#popup #buttonsBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popupBtn {
+  margin: 20px;
+  padding: 5px 10px;
+  background: #0d0d0d;
+  min-width: 50px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.popupBtn:hover {
+  background: #fff;
+  color: #0d0d0d;
+}
+
+#mainBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+#mainBox h2 {
+  text-align: center;
+  margin: 0;
+}
+
+#hireEmployees {
+  margin-top: 10px;
+}
+
+#overlayer {
+  position: fixed;
+  z-index: 99999;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.75);
+}
+
+#loadingScreen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #0d0d0d;
+}
+
+#loadingScreen .ball {
+  color: #ff3333;
+  margin: 10px;
+  background: #ff3333;
+  border: 4px solid #ff3333;
+  border-radius: 50%;
+  padding: 10px;
+  width: 1px;
+  height: 1px;
+  transition: all 0.4s;
+  animation: loading 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes loading {
+  0% {
+    background: #ff3333;
+    width: 1px;
+    height: 1px;
+  }
+  50% {
+    width: 20px;
+    height: 20px;
+  }
+  100% {
+    width: 1px;
+    height: 1px;
+    background: transparent;
+  }
+}
+#office {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  height: 100%;
+  margin-left: 20%;
+  background: #0d0d0d;
+}
+
+#office #imageBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  background: #0d0d0d;
+  padding: 20px;
+  margin-top: 5%;
+  background: #1d1d1d;
+  flex-wrap: wrap;
+}
+
+#office #imageBox div {
+  cursor: pointer;
+  margin: 10px;
+  width: auto;
+  height: 128px;
+  transition: all 0.2s;
+}
+
+#office #imageBox div:hover {
+  -webkit-box-shadow: 0px 0px 13px 6px white;
+  -moz-box-shadow: 0px 0px 13px 6px white;
+  box-shadow: 0px 0px 13px 6px white;
+}
+
+#office #generateMore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 15px;
+  margin: 5% 0;
+}
+
+#playerCharacter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  margin-top: 10%;
+  background: #1d1d1d;
+  width: 100%;
+}
+
+#playerCharacter #playersImage {
+  margin: 20px;
+}
+
+#playerCharacter #playersImage img {
+  border-radius: 50%;
+  border: 2px solid #ff3333;
+}
+
+#playerCharacter #playerData {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#playerCharacter #playerData input {
+  margin: 10px;
+  font-size: 17px;
+  color: #ff3333;
+  border: none;
+  padding: 3px;
+  border-radius: 50px;
+  text-align: center;
+  transition: all 0.2s;
+}
+
+#playerCharacter #playerData input:focus {
+  outline: none;
+}
+
+.employeesButtons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.employeesButtons div {
+  margin: 10px;
+}
+
+#companyName {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 30%;
+  height: 3%;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 50px;
+  color: #ff3333;
+  text-align: center;
+}
+
+#companyName:focus {
+  border: none;
+  outline: none;
+}
+
+#employeeBoxTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background: #1d1d1d;
+  color: #fff;
+  letter-spacing: 3px;
+  border-bottom: 2px solid #fff;
+  text-transform: uppercase;
+  width: 80%;
+  margin: 20px;
+}
+
+#employeeBoxTitle img {
+  margin-right: 20px;
+}
+
+#employeeBoxTitle h1 {
+  font-size: 22px;
+}
+
+#relations {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0d0d0d;
+  width: 80%;
+  height: 100%;
+  margin-left: 20%;
+}
+
+#relations #realtionsTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-top: 20%;
+  background: #1d1d1d;
+  color: #fff;
+  letter-spacing: 3px;
+  border-bottom: 2px solid #fff;
+  text-transform: uppercase;
+  width: 80%;
+  margin: 20px;
+}
+
+#relations #realtionsTitle img {
+  margin-right: 20px;
+}
+
+#relations #realtionsTitle h1 {
+  font-size: 22px;
+}
+
+#relations .relationsWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#relations .relationsWrap div {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ff3333;
+}
+
+#relations .relationBarWrap {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 7px;
+  border: 2px solid #ff3333;
+  width: 500px;
+  padding: 3px;
+}
+
+#relations .relationsBar {
+  background: #fff;
+  height: 20px;
+}
+
+#relations #relationsBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  flex-wrap: wrap;
+}
+
+#business {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#business #availableBusinessTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background: #1d1d1d;
+  color: #fff;
+  letter-spacing: 3px;
+  border-bottom: 2px solid #fff;
+  text-transform: uppercase;
+  width: 80%;
+  margin: 20px;
+}
+
+#business #availableBusinessTitle img {
+  margin-right: 20px;
+}
+
+#business #availableBusinessTitle h1 {
+  font-size: 22px;
+}
+
+#business #availableBusinessList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+  padding: 10px;
+  width: 40%;
+  height: 60%;
+  list-style: none;
+}
+
+#business #availableBusinessList .businessListElem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  cursor: pointer;
+  min-width: 70%;
+  width: auto;
+  max-width: 95%;
+  background: transparent;
+  color: #ff3333;
+  border: 2px solid #ff3333;
+  padding: 10px 5px;
+  transition: all 0.2s;
+}
+
+#business #availableBusinessList .businessListElem img {
+  display: block;
+  margin-right: 20px;
+  width: 35px;
+}
+
+#business #availableBusinessList .businessListElem img:first-of-type(1) {
+  margin-top: 10px;
+}
+
+#business #availableBusinessList .businessListElem:hover {
+  letter-spacing: 3px;
+}
+
+#listOfEmployees {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#business {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 100%;
+  top: 0;
+  margin-left: 20%;
+  background: #0d0d0d;
+}
+
+#finishCreatingCharacter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10%;
+  margin-bottom: 5%;
+}
+
+#employees {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 100%;
+  margin-left: 20%;
+  background: #0d0d0d;
+}
+
+#employees h2 {
+  color: #fff;
+}
+
+#employees #employeeBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.employeeCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  flex-direction: column;
+  color: #ff3333;
+  font-family: "Roboto Condensed", sans-serif;
+  padding: 15px;
+  background: #1d1d1d;
+  margin: 30px;
+  width: 250px;
+  -webkit-box-shadow: 4px 6px 14px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 4px 6px 14px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 4px 6px 14px -1px rgba(0, 0, 0, 0.75);
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.employeeCard div {
+  margin-top: 20px;
+}
+
+.employeeCard span {
+  color: #fff;
+}
+
+.employeeImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background: #0d0d0d;
+  border: 2px solid #ff3333;
+  border-radius: 50%;
+}
+
+.generalBtn {
+  display: flex;
+  justify-content: center;
+  align-items: space-around;
+  text-align: center;
+  color: #ff3333;
+  background: #1d1d1d;
+  padding: 10px 15px;
+  width: 250px;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.generalBtn:hover {
+  color: #0d0d0d;
+  background: #ff3333;
+}
+
+.generalBtn img {
+  display: block;
+  padding-right: 20px;
+  width: 35px;
+}
+
+.contrastBtn {
+  text-align: center;
+  color: #0d0d0d;
+  background: #ff3333;
+  padding: 10px 15px;
+  transition: all 0.2s;
+  border: 2px solid #ff3333;
+  cursor: pointer;
+}
+
+.contrastBtn:hover {
+  background: transparent;
+  color: #ff3333;
+  border: 2px solid #ff3333;
+}
+
+#hireHim, #cancel {
+  margin: 20px;
+  width: 100px;
+}
+
+#finances {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  height: 100%;
+  margin-left: 20%;
+  color: #fff;
+  background: #0d0d0d;
+}
+
+#finances #budget {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1d1d1d;
+  text-transform: uppercase;
+  margin-top: 3%;
+  letter-spacing: 5px;
+  padding: 20px;
+  -webkit-box-shadow: 0px 0px 17px 2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 17px 2px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 17px 2px rgba(0, 0, 0, 0.75);
+  border-bottom: 2px solid #fff;
+}
+
+#finances #budget img {
+  width: 35px;
+  padding-right: 10px;
+  margin-right: 10px;
+  border-right: 2px solid #fff;
+}
+
+#finances #budget div {
+  font-size: 20px;
+  margin: 10px;
+}
+
+#finances #budget #actualBudget {
+  font-weight: bold;
+  font-size: 20px;
+  color: #ff3333;
+}
+
+#finances #financesButtons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1%;
+  padding: 20px;
+}
+
+#finances #financesButtons div {
+  margin: 20px;
+}
+
+#finances #financesChart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  background: #1d1d1d;
+  border-right: 4px solid #fff;
+  border-left: 4px solid #fff;
+  width: 80%;
+}
+
+#finances #chartInfo {
+  margin-top: 5%;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding: 10px 30px;
+  background: #1d1d1d;
+}
+
+#finances #dataNumbers {
+  width: auto;
+  color: #fff;
+  margin-right: 20px;
+}
+
+#finances #dataNumbers .dataNumber {
+  margin: 10px;
+}
+
+#finances #chart {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 300px;
+  width: 350px;
+  border-left: 3px solid #ff3333;
+  border-bottom: 3px solid #ff3333;
+  background: #1a1a1a;
+}
+
+#finances #chart .chartRect {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ff3333;
+  padding: 5px;
+  width: 5px;
+  height: 2px;
+  margin: 3px;
+  font-size: 10px;
+}
+
+.employeeViewMore {
+  color: #fff;
+  font-size: 13px;
+  border-bottom: 1px solid #1d1d1d;
+  margin-top: 5%;
+  cursor: pointer;
+}
+
+.employeeViewMore:hover {
+  border-bottom: 1px solid #fff;
+}
+
+#employeePopup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: auto;
+  height: auto;
+  transform: translate(-50%, -50%);
+  padding: 30px;
+  border-radius: 15px;
+  background: #1d1d1d;
+  z-index: 9999999;
+}
+
+#employeePopup img {
+  width: 75px;
+  height: 75px;
+}
+
+#employeePopup #employeeSkills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+}
+
+#employeePopup .employeeRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin-top: 3%;
+}
+
+#employeePopup .employeeRow .employeeDataWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+}
+
+#employeePopup .employeeRow .employeePersonal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: normal;
+  margin: 15px 30px;
+  border: 2px solid #fff;
+  padding: 5px 10px;
+  color: #ff3333;
+  border-radius: 3px;
+  width: 200px;
+  font-size: 18px;
+}
+
+#employeePopup .progressBar {
+  background: #ff3333;
+  height: 20px;
+  width: 1px;
+}
+
+#employeePopup .skill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  flex-direction: column;
+  margin: 20px;
+  text-align: center;
+}
+
+#employeePopup .skill .skillInfo {
+  width: 150px;
+}
+
+#employeePopup .skill .skillBar {
+  margin-top: 10px;
+  border: 1px solid #fff;
+  width: 100px;
+  height: 20px;
+}
+
+#chooseEmployeeToJob {
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 20px;
+  color: #fff;
+  padding: 10px 5px;
+  background: #0d0d0d;
+}
+
+#businessEmployeesCards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin: 25px 0;
+}
+
+#changeEmployeeArrowsBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  height: 10%;
+}
+
+#changeEmployeeArrowsBox .changeEmployee {
+  margin: 10px;
+  background-image: url("../img/icons/arrow.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+#changeEmployeeArrowsBox .right {
+  transform: rotate(180deg);
+}
+
+.businessEmployeeCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 20px;
+  background: #0d0d0d;
+  border-radius: 5px;
+  font-size: initial;
+  letter-spacing: initial;
+  padding: 20px 10px;
+  flex-direction: column;
+  width: 150px;
+  height: 200px;
+  transition: all 0.2s;
+}
+
+.businessEmployeeCard div {
+  margin: 10px 0;
+}
+
+.businessEmployeeCard span {
+  color: #ff3333;
+}
+
+.businessEmployeeCard .businessEmployeeImg {
+  background: #0d0d0d;
+  padding: 10px;
+  border-radius: 50%;
+  border: 3px solid #ff3333;
+}
+
+.actionStatus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  letter-spacing: 3px;
+  text-align: center;
+  margin: 10%;
+  background: #0d0d0d;
+  padding: 5px 10px;
+}
+
+.actionStatus img {
+  margin-right: 20px;
+  width: 35px;
+}
+
+.failure {
+  color: #ff3333;
+}
+
+.success {
+  color: #009933;
+}
+
+#doBusinessPopup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999999;
+  min-width: 50%;
+  min-height: 75%;
+  width: auto;
+  height: auto;
+  flex-direction: column;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #1d1d1d;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#doBusinessPopup #startAction {
+  margin: 20px 0;
+}
+
+#doBusinessPopup #closePopup {
+  position: absolute;
+  top: 2%;
+  right: 2%;
+  cursor: pointer;
+}
+
+#doBusinessPopup #closePopup img {
+  width: 35px;
+}
+
+#doBusinessPopup #businessJobTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-bottom: 2px solid #ff3333;
+  letter-spacing: 3px;
+  font-size: 35px;
+  color: #ff3333;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+#doBusinessPopup .businessInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 3px;
+  margin: 20px 0;
+}
+
+#doBusinessPopup .businessInfo img {
+  display: block;
+  width: 35px;
+  padding-right: 10px;
+  margin-right: 10px;
+  border-right: 2px solid #fff;
+}
+
+#doBusinessPopup .businessInfo span {
+  color: #ff3333;
+  display: block;
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#tutorialBtn {
+  background: #0d0d0d;
+  margin-top: 30px;
+  color: #ffa31a;
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.noAvaiable {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: brightness(55%);
+  margin: 20px 0;
+  cursor: pointer;
+  width: 70%;
+  background: transparent;
+  color: #ff3333;
+  border: 2px solid #ff3333;
+  padding: 10px 0;
+  transition: all 0.2s;
+}
+
+.noAvaiable img {
+  display: block;
+  margin-right: 20px;
+  width: 35px;
+}
+
+.noAvaiable img:first-of-type(1) {
+  margin-top: 10px;
+}
+
+#income, #expenses {
+  width: 100px;
+}
+
+#newsBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+  position: absolute;
+  padding: 20px;
+  width: 50%;
+  top: 50%;
+  left: 60%;
+  transform: translate(-65%, -50%);
+  background: #1d1d1d;
+  z-index: 99999999;
+}
+
+#newsBox #newsTitle {
+  margin-bottom: 10%;
+}
+
+#newsBox #newsTitle h2 {
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+#newsBox img {
+  max-width: 100%;
+  min-width: 75%;
+}
+
+#newsBox #newsContent {
+  margin-top: 7%;
+}
+
+#newsBox #newsContent p {
+  font-size: 20px;
+  text-align: center;
+}
+
+#newsBox #newsBtn {
+  margin: 5% 0;
+  width: 150px;
+}
+
+#timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 0;
+  top: 3%;
+  width: 20%;
+  padding: 10px;
+  background: #1d1d1d;
+  color: #fff;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  -webkit-box-shadow: 2px 5px 15px 2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 5px 15px 2px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 5px 15px 2px rgba(0, 0, 0, 0.75);
+}
+
+#timer #weekDay {
+  padding-right: 10px;
+  border-right: 2px solid #fff;
+}
+
+#timer #date {
+  margin-left: 10px;
+  padding-right: 10px;
+  border-right: 2px solid #fff;
+}
+
+#timer #time {
+  margin-left: 10px;
+}
+
+#saveBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  border-radius: 50%;
+  top: -1%;
+  left: -1%;
+  width: 65px;
+  height: 65px;
+  background: #1d1d1d;
+  padding: 10px;
+  z-index: 99999999;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+
+#saveBtn img {
+  width: 35px;
+}
+
+.finacesBoxInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  height: 70%;
+  background: #1d1d1d;
+  padding: 20px;
+  z-index: 9999999999;
+}
+
+.finacesBoxInfo h2 {
+  color: #ff3333;
+  font-size: 32px;
+  letter-spacing: 3px;
+}
+
+.finacesBoxInfo #incomeInfoWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 10px;
+  width: 60%;
+  border-bottom: 2px solid #ff3333;
+}
+
+.finacesBoxInfo #monthList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10%;
+}
+
+.finacesBoxInfo #monthList ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 60%;
+  list-style-type: none;
+  padding: 0;
+  margin: 5% 0 0 0;
+}
+
+.finacesBoxInfo #monthList ul li {
+  color: #0d0d0d;
+  background: #ff3333;
+  padding: 0 5px;
+  font-size: 13px;
+  margin: 10px 5px;
+  width: 34px;
+  border: 1px solid #ff3333;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.finacesBoxInfo #monthList ul li:hover {
+  background: transparent;
+  color: #ff3333;
+}
+
+.finacesBoxInfo #buttonsBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+  width: 50%;
+}
+
+.finacesBoxInfo #buttonsBox #incomeBtn {
+  width: 150px;
+}
+
+.finacesBoxInfo #emptyIncome {
+  font-weight: bold;
+}
+
+.finacesBoxInfo .businessName {
+  font-weight: bold;
+}
+
+.finacesBoxInfo .businessVal {
+  color: #ff3333;
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+.finacesBoxInfo .pickedMonth {
+  transform: scale(1.2);
+}
+
+#eventBox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 99999999999;
+  padding: 10px;
+  background: #1d1d1d;
+}
+
+#rightArrow {
+  right: 5%;
+}
+
+#rightArrow img {
+  transform: rotate(180deg);
+}
+
+#leftArrow {
+  left: 5%;
+}
+
+#rightArrow, #leftArrow {
+  position: absolute;
+  top: 60%;
+  cursor: pointer;
+}
+
+#rightArrow img, #leftArrow img {
+  width: 35px;
+  transition: all 0.2s;
+}
+
+#rightArrow img:hover, #leftArrow img:hover {
+  opacity: 0.7;
+}
+
+#lostInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  flex-direction: column;
+  background: #1d1d1d;
+  color: #fff;
+  padding: 10px;
+  width: 30%;
+  height: 30%;
+  border-radius: 15px;
+  z-index: 9999999;
+}
+#lostInfo h2 {
+  font-size: 25px;
+}
+
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.scss.map */
+
+/*# sourceMappingURL=style.css.map */
