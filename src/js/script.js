@@ -745,7 +745,6 @@ function createBusinessBox(choosenCountry){
     });
 
     document.querySelectorAll('.businessListElem').forEach(btn => btn.addEventListener('click', doBusiness))
-    makeOverlayer();
     timeToDoAction();
 }
 
